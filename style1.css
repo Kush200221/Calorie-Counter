@@ -1,0 +1,128 @@
+body{
+    font-family: poppins;
+}
+
+
+
+.navbar{
+    background-color: rgb(0, 93, 105);
+    color: white;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.Maincontainer{
+    border-top: .3rem solid  rgb(0, 93, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0px 0px 0px;
+    background-color: rgb(241, 241, 241);
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 44px 0 0;
+    position: relative;
+    width: calc(100% - 312px)
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.subheading{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.intro{
+    border-top: .125rem solid #333132;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 20px;
+}
+
+.food-search-label {
+    font-size: 25px;
+    font-weight: 500;
+    color:  rgb(0, 93, 105);
+    margin: 0 0 0 0;
+}
+
+.food-search input{
+    border-radius: .1875rem;
+    background-color: #fff;
+    box-shadow: inset 0 0.0625rem 0.125rem 0 rgba(0,0,0,.12);
+    border: .0625rem solid #ccc;
+    color: #333132;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 0 0 .6875rem;
+    margin-top: .4575rem;
+    padding: .625rem;
+    width: 100%;
+}
+
+.popularbuttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popularbuttons button{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border-top: 0.5px;
+    border-color: #ffffff;
+    margin: 20px 0px 20px 0 ;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #e4e4e4;
+
+}
+
+.fc-popular-tabs-container-list-item{
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    
+}
+
+.fc-popular-tabs-container-list-item:hover{
+    text-decoration: underline 1px rgb(179, 179, 179);
+}
+
+
+.fc-popular-tabs-container-list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+
+
